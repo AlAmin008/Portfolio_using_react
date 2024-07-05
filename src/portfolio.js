@@ -1,13 +1,13 @@
-
-import html from './skill_icon/html-5.png'
-import css from './skill_icon/css.png'
-import js from './skill_icon/js.png'
 import py from './skill_icon/python.png'
 import react from './skill_icon/atom.png'
 import django from './skill_icon/django.jpg'
 import rest from './skill_icon/rest.png'
 import flutter from './skill_icon/flutter.png'
-import mycv from './cv.pdf'
+import machinelearning from './skill_icon/machine-learning.png'
+import datascience from './skill_icon/data-science.png'
+import mysql from './skill_icon/mysql.png'
+import git from './skill_icon/git.png'
+import mycv from './Md.Al-Amin.pdf'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -20,7 +20,7 @@ const about = {
   name: 'Md. Al-Amin',
   role: 'Full Stack Web Developer',
   description:
-    '🚀 Full Stack Developer specializing in React and Django, with proficiency in Flutter for cross-platform mobile app development. Passionate about creating seamless and responsive web applications, I bring a unique blend of frontend expertise and robust backend solutions to the table. Let\'s build something amazing together! 💻🌐📱',
+    '🚀 Full Stack Developer specializing in React and Django, with proficiency in Flutter for cross-platform mobile app development. Passionate about creating seamless and responsive web applications, I bring a unique blend of frontend expertise and robust backend solutions to the table. Recently diving into the realms of AI, ML, and data science, I am eager to integrate intelligent solutions into innovative projects. Let\'s build something amazing together! 💻🌐📱🤖📊',
   cv: mycv,
   social: {
     linkedin: 'https://linkedin.com',
@@ -61,8 +61,8 @@ const projects = [
     description:
       'This website was created as a means of automating the academic document receipt process. We created the system\'s web and mobile versions. Additionally, the blockchain concept was used for high security.',
     stack: ['html', 'CSS', 'JavaScript', 'Bootstrap 5', 'dart', 'Flutter', 'MySQL'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/IIT-NSTU/NSTU-ADPP',
+    livePreview: '',
   },
   {
     name: 'Movie Recommendation System',
@@ -85,8 +85,24 @@ const projects = [
     description:
       'A website that lets you reserve a table at a restaurant. The creation of a booking system served as the primary inspiration for this application. Core functionality includes reserving one or multiple tables, pre-ordering foods, updating daily menu, posting offers and discounts and reservation management.',
     stack: ['html', 'CSS', 'JavaScript', 'Bootstrap 5', 'PHP', 'MySQL'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/AlAmin008/RestaurentReservationSystem',
+    livePreview: '',
+  },
+  {
+    name: 'NSTU Food Ordering System',
+    description:
+      'A web application created with educational purposes. Here, students may place online meal orders while vendors can show off their wares to potential customers.',
+    stack: ['html', 'CSS', 'JavaScript', 'Bootstrap 5', 'PHP', 'MySQL'],
+    sourceCode: 'https://github.com/AlAmin008/RestaurentReservationSystem',
+    livePreview: '',
+  },
+  {
+    name: 'Restaurant Billing System',
+    description:
+      'An application built on Java that automates the restaurant billing process. Using the technology, a user can quickly compute and produce a customer\'s bill. It was created as a part of Object-Oriented Programming Lab II. ',
+    stack: ['Java', 'Java Swing'],
+    sourceCode: 'https://github.com/AlAmin008/Restaurant_Billing_Calculator',
+    livePreview: '',
   },
 ]
 
@@ -106,11 +122,11 @@ const skills = [
   },
   {
     "name":"Machine Learning",
-    "image":py 
+    "image":machinelearning 
   },
   {
     "name":"Data Science",
-    "image":py 
+    "image":datascience
   },
   {
     "name":"React",
@@ -126,10 +142,10 @@ const skills = [
     "image":flutter 
   },{
     "name":"MySQL",
-    "image":""
+    "image":mysql
   },{
     "name":"Git",
-    "image":""
+    "image":git
   },
 ]
 

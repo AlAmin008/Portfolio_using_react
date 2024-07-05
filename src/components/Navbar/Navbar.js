@@ -53,7 +53,7 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
-          {skills.length ? (
+          {experiences.length ? (
           <li className='nav__list-item'>
             <a
               href='#experiences'
